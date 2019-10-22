@@ -1,0 +1,26 @@
+<%= link_to "Download", db_report_path(format: :csv) %>
+
+<table class="table">
+  <thead>
+    <tr>
+      <td>id</td>
+      <td>First Name</td>
+      <td>Last Name</td>
+      <td>Birthdate</td>
+      <td>Email</td>
+      <td>Profile</td>
+    </tr>
+  </thead>
+  <tbody>
+    <% @people.find_each do |person| %>
+      <tr>
+        <td><%= person.id %></td>
+        <td><%= person.first_name %></td>
+        <td><%= person.last_name %></td>
+        <td><%= person.birthdate %></td>
+        <td><%= person.email %></td>
+        <td><%= person.profiles.try(:first).try(:stuff) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
