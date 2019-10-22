@@ -1,0 +1,15 @@
+zsh:1: command not found: :wq
+  "first_name": "Eulah",
+  "last_name": "Kutch",
+  "birthdate": "1985-10-03",
+  "email": "tonja.nikolaus@okeeferunte.name",
+  "created_at": "2019-10-22T16:17:55.766Z",
+  "updated_at": "2019-10-22T16:17:55.766Z",
+  "profile": {
+    "id": 51,
+    "person_id": 171211,
+    "stuff": "Facilis consequuntur dolores repellat qui omnis enim magnam fugiat.",
+    "created_at": "2019-10-22T16:17:55.770Z",
+    "updated_at": "2019-10-22T16:17:55.770Z"
+  }
+}
